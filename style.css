@@ -454,3 +454,49 @@ footer p {
 .end:hover{
     color: red;
 }
+.logo b{
+  font-size: 2rem;
+  
+  color: black;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em white, 0 0 0.2em black, 0 0 0.1em black, 0 10px 3px white;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+  margin-top: 3rem;
+}
+.logo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: white;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: white;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: white;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
